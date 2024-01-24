@@ -3,8 +3,8 @@ export const component = function Index() {
 		<div>
 			<h1>詠唱.com</h1>
 			<div>
-				<p>キャラクターの詠唱を確認できるサービスです。</p>
-				<p>ネタバレを含む場合があります。</p>
+				<p>詠唱を確認できるサービスです。</p>
+				<p>作品のネタバレを含む場合があります。</p>
 			</div>
 		</div>
 	);

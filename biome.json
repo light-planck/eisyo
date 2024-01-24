@@ -12,5 +12,8 @@
 	"vcs": {
 		"enabled": true,
 		"clientKind": "git"
+	},
+	"files": {
+		"ignore": ["routeTree.gen.ts"]
 	}
 }

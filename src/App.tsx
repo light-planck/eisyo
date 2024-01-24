@@ -1,13 +1,27 @@
-const App = () => {
-	return (
-		<>
-			<h1>詠唱.com</h1>
-			<div>
-				<p>キャラクターの詠唱を確認できるサービスです。</p>
-				<p>ネタバレを含む場合があります。</p>
-			</div>
-		</>
-	);
-};
+import { Router, RouterProvider } from "@tanstack/react-router";
+import { StrictMode } from "react";
+import ReactDOM from "react-dom/client";
 
-export default App;
+// Import the generated route tree
+import { routeTree } from "./routeTree.gen";
+
+// Create a new router instance
+const router = new Router({ routeTree });
+
+// Register the router instance for type safety
+declare module "@tanstack/react-router" {
+	interface Register {
+		router: typeof router;
+	}
+}
+
+// Render the app
+const rootElement = document.getElementById("root") as Element;
+if (!rootElement.innerHTML) {
+	const root = ReactDOM.createRoot(rootElement);
+	root.render(
+		<StrictMode>
+			<RouterProvider router={router} />
+		</StrictMode>,
+	);
+}

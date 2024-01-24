@@ -1,4 +1,10 @@
-export const component = function Index() {
+import { FileRoute } from "@tanstack/react-router";
+
+export const Route = new FileRoute("/").createRoute({
+	component: Index,
+});
+
+function Index() {
 	return (
 		<div>
 			<h1>詠唱.com</h1>
@@ -8,4 +14,4 @@ export const component = function Index() {
 			</div>
 		</div>
 	);
-};
+}

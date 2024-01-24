@@ -1,11 +1,13 @@
-import { Button } from "./components/ui/button";
-
-function App() {
+const App = () => {
   return (
     <>
-      <Button>Click me</Button>
+      <h1>詠唱.com</h1>
+      <div>
+        <p>キャラクターの詠唱を確認できるサービスです。</p>
+        <p>ネタバレを含む場合があります。</p>
+      </div>
     </>
   );
-}
+};
 
 export default App;

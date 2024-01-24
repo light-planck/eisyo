@@ -8,6 +8,6 @@
 - Bun
 - Biome
 - Lefthook
-- Turbo
+- Turborepo
 - Tanstack Router
 - shadcn-ui

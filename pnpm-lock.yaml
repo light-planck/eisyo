@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.12.2
     version: 1.12.2(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-vite-plugin':
-    specifier: ^1.11.0
-    version: 1.11.0
+    specifier: ^1.12.3
+    version: 1.12.3
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -706,21 +706,6 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.12.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-vxQdEyu+HAzHKiOMbl+HgrW8SsysjJxbZV3AtsXv8DEesZEfOZSHvDJ1QF6ZopbHQtrg7fsar1sReySfYFfaug==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      react: '>=16'
-      react-dom: '>=16'
-    dependencies:
-      '@tanstack/history': 1.8.0
-      '@tanstack/react-store': 0.2.1(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      tiny-invariant: 1.3.1
-      tiny-warning: 1.0.3
-    dev: false
-
   /@tanstack/react-router@1.12.2(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-ltFy6KRKxbDGKl5nA3eXAnzIGiebZB1O4ympS6kqiUgaqB3fRnr1Dqmy9+07kKz8ugMa963aU2mb/oEwdS+3iA==}
     engines: {node: '>=12'}
@@ -761,19 +746,19 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/router-generator@1.11.0:
-    resolution: {integrity: sha512-e5T9O3M1idZD1O5RoEkA08HDO8k06sSqDtTr+CLLiTE6Au9jNudxLK/mBT1gXrHoLbfzhnW4n4T8npN/sEVhOw==}
+  /@tanstack/router-generator@1.12.3:
+    resolution: {integrity: sha512-3xKzduXas07OwmuqvUzyoPv2+TGosxDkADfrZoTMOwKmNJaE5wea6LECVe5S9YSThE46i7zeHPCaCnETDUN2kg==}
     engines: {node: '>=12'}
     dependencies:
       prettier: 3.2.4
       zod: 3.22.4
     dev: false
 
-  /@tanstack/router-vite-plugin@1.11.0:
-    resolution: {integrity: sha512-/SkmkutK3wEUlKrgzfq5+E0UFHRGSIxJZ3xbRSwfZb0ZSW5snSc26udOZXcKOzvSo/Guyr5/63zCL3SrBMh8Nw==}
+  /@tanstack/router-vite-plugin@1.12.3:
+    resolution: {integrity: sha512-1yYgSPE6o11BWOM2pdayySJDGwEB8qpHws94gwfoNEXB6msNBV5q4o1J3/lDL7aUp9bMatyJ0N+ahpzEwKG7Yw==}
     engines: {node: '>=12'}
     dependencies:
-      '@tanstack/router-generator': 1.11.0
+      '@tanstack/router-generator': 1.12.3
     dev: false
 
   /@tanstack/store@0.1.3:

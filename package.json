@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"type-check": "tsc",
-		"format": "bunx --bun biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true .",
+		"format": "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true .",
 		"preview": "vite preview",
 		"postinstall": "lefthook install"
 	},

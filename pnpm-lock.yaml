@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.9.0
     version: 1.10.0(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-devtools':
-    specifier: ^1.9.0
-    version: 1.10.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.11.1
+    version: 1.11.1(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-vite-plugin':
     specifier: ^1.8.2
     version: 1.10.0
@@ -721,6 +721,21 @@ packages:
       tiny-warning: 1.0.3
     dev: false
 
+  /@tanstack/react-router@1.11.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-GcYomK8Gxz6jg3EEQCMRhnEAY/GJnbBadENR9BksmOUutVD5qT90iPydg+42Ih2TT2cWzn38+4i+6OourhZAnw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      '@tanstack/history': 1.8.0
+      '@tanstack/react-store': 0.2.1(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      tiny-invariant: 1.3.1
+      tiny-warning: 1.0.3
+    dev: false
+
   /@tanstack/react-store@0.2.1(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-tEbMCQjbeVw9KOP/202LfqZMSNAVi6zYkkp1kBom8nFuMx/965Hzes3+6G6b/comCwVxoJU8Gg9IrcF8yRPthw==}
     peerDependencies:
@@ -733,14 +748,14 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/router-devtools@1.10.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-SKWeH7qjGExRP+924U8RHsC0rwYP9x4sn8Tbda7/Huri2QIdtFuxIjHccBe8uy5D3ImHF86W2+hYlkoKQtiPAw==}
+  /@tanstack/router-devtools@1.11.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Tg6CLILwPzhkx4B6CTFKk4lg98knVcrBX3xAMBdjGZXxPBYfMOBvoP2Aab7BroQz3vHxXBBHr/hqNbjJmaVy2g==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
-      '@tanstack/react-router': 1.10.0(react-dom@18.2.0)(react@18.2.0)
+      '@tanstack/react-router': 1.11.1(react-dom@18.2.0)(react@18.2.0)
       date-fns: 2.30.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)

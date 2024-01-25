@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.12.1
     version: 1.12.1(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-devtools':
-    specifier: ^1.12.0
-    version: 1.12.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.12.1
+    version: 1.12.1(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-vite-plugin':
     specifier: ^1.11.0
     version: 1.11.0
@@ -748,14 +748,14 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/router-devtools@1.12.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-3sZA5dqaBZcN5oLy7sodC597D2rcGXggN0HOqzQyIslQYLTJsPKu7TNex43z984rK1k5PKW0ugbUVOiY+sy+0w==}
+  /@tanstack/router-devtools@1.12.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8jQMkIIQhMMxISlTgDk5F/49IkDLS7GW9VoLS0yX2Ld7Dy7wb7Cild9zca0vmQNSEgnQs8da6uISznVdS5o/+w==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
-      '@tanstack/react-router': 1.12.0(react-dom@18.2.0)(react@18.2.0)
+      '@tanstack/react-router': 1.12.1(react-dom@18.2.0)(react@18.2.0)
       date-fns: 2.30.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)

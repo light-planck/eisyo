@@ -4,10 +4,10 @@
 
 ## 技術スタック
 
+- pnpm
 - Vite
-- Bun
 - Biome
 - Lefthook
 - Turborepo
 - Tanstack Router
-- shadcn-ui
+- shadcn/ui

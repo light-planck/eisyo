@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.12.1
     version: 1.12.1(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-devtools':
-    specifier: ^1.12.1
-    version: 1.12.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.12.2
+    version: 1.12.2(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-vite-plugin':
     specifier: ^1.11.0
     version: 1.11.0
@@ -706,8 +706,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.12.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-goxOHPAmjnRRIjGvV5FBr5zRStjos+48L3nRC6Ckx2TtV0yCNx0s2403vUQ0zlKZ11zUQ0tZXswKcDkvoDo2Yg==}
+  /@tanstack/react-router@1.12.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-vxQdEyu+HAzHKiOMbl+HgrW8SsysjJxbZV3AtsXv8DEesZEfOZSHvDJ1QF6ZopbHQtrg7fsar1sReySfYFfaug==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
@@ -721,8 +721,8 @@ packages:
       tiny-warning: 1.0.3
     dev: false
 
-  /@tanstack/react-router@1.12.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-vxQdEyu+HAzHKiOMbl+HgrW8SsysjJxbZV3AtsXv8DEesZEfOZSHvDJ1QF6ZopbHQtrg7fsar1sReySfYFfaug==}
+  /@tanstack/react-router@1.12.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ltFy6KRKxbDGKl5nA3eXAnzIGiebZB1O4ympS6kqiUgaqB3fRnr1Dqmy9+07kKz8ugMa963aU2mb/oEwdS+3iA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
@@ -748,14 +748,14 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/router-devtools@1.12.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-8jQMkIIQhMMxISlTgDk5F/49IkDLS7GW9VoLS0yX2Ld7Dy7wb7Cild9zca0vmQNSEgnQs8da6uISznVdS5o/+w==}
+  /@tanstack/router-devtools@1.12.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ebem5lR4TC3bbehKHLYaOtGZ0rUIXFWkyjnQtC1efCBiqpW1dKBCbXadc3M2rc+2Kg+V/kDPzw9JZo6CrmIXXA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
-      '@tanstack/react-router': 1.12.1(react-dom@18.2.0)(react@18.2.0)
+      '@tanstack/react-router': 1.12.2(react-dom@18.2.0)(react@18.2.0)
       date-fns: 2.30.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)

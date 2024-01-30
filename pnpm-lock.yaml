@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2(@types/react@18.2.48)(react@18.2.0)
   '@tanstack/react-router':
-    specifier: ^1.14.6
-    version: 1.14.6(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.15.2
+    version: 1.15.2(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-vite-plugin':
     specifier: ^1.14.1
     version: 1.14.1
@@ -703,8 +703,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.14.6(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-I9/u051xxjFWeEz62b3k/Cyel3Q3uXwDIs+XOvZzQTmOzhP2zXUwPU5rgoxcn6NcDUFPVOgVBRXl/yB6tOAk8w==}
+  /@tanstack/react-router@1.15.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-wI+G6A2Eue8BwVC76xUSEhOrUfHLrYFzpNZIJT18Msfe+xX5xh1VnsjrAJGcOkmCuJPCdKQK+l9S97Z31YivfA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'

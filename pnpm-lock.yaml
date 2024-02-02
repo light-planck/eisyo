@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.15.7
     version: 1.15.7(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/router-vite-plugin':
-    specifier: ^1.15.4
-    version: 1.15.4
+    specifier: ^1.15.8
+    version: 1.15.8
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -730,19 +730,19 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/router-generator@1.15.4:
-    resolution: {integrity: sha512-DG+ZAKQlRu2bK0jxbzq63B1k5srCtlbHuYqKVOyzjsIUWu75VVt0byNKhnkJxU3cnXzTb2y3io8Fsf7DMIHXLA==}
+  /@tanstack/router-generator@1.15.8:
+    resolution: {integrity: sha512-7VHZVt9WOtNP/uuLSxad2ijOYM8QHIq47ERGv9dIg0C6H2k+e4djaJi4to82a9qVyC12zRj+WJ/7AuRX5yfK0A==}
     engines: {node: '>=12'}
     dependencies:
       prettier: 3.2.4
       zod: 3.22.4
     dev: false
 
-  /@tanstack/router-vite-plugin@1.15.4:
-    resolution: {integrity: sha512-SvVm0pIy15yU7bFRuq4ZWAIi/067xxhvutL2gcepfUkEv5q2v4VM9pGsYIjUCt15jBJlnCRT3wdjwJuBFUqh9g==}
+  /@tanstack/router-vite-plugin@1.15.8:
+    resolution: {integrity: sha512-YhU2m0mS0ClAGmKA93xGNJxfnwcUByeYkT1hwRWXc822asevXAq+bj7Wdn0SeDhq4ci8LOBUXiIpz3v6xuSW0w==}
     engines: {node: '>=12'}
     dependencies:
-      '@tanstack/router-generator': 1.15.4
+      '@tanstack/router-generator': 1.15.8
     dev: false
 
   /@tanstack/store@0.1.3:

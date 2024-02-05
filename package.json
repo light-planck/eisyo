@@ -28,7 +28,7 @@
 		"@types/node": "^20.11.16",
 		"@types/react": "^18.2.43",
 		"@types/react-dom": "^18.2.17",
-		"@vitejs/plugin-react-swc": "^3.5.0",
+		"@vitejs/plugin-react-swc": "^3.6.0",
 		"autoprefixer": "^10.4.17",
 		"lefthook": "^1.6.1",
 		"postcss": "^8.4.33",

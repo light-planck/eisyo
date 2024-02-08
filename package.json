@@ -14,7 +14,7 @@
 	"dependencies": {
 		"@radix-ui/react-slot": "^1.0.2",
 		"@tanstack/react-router": "^1.15.22",
-		"@tanstack/router-vite-plugin": "^1.15.20",
+		"@tanstack/router-vite-plugin": "^1.15.22",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.0",
 		"lucide-react": "^0.323.0",

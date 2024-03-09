@@ -33,7 +33,7 @@
 		"lefthook": "^1.6.4",
 		"postcss": "^8.4.35",
 		"tailwindcss": "^3.4.1",
-		"turbo": "^1.12.4",
+		"turbo": "^1.12.5",
 		"typescript": "^5.2.2",
 		"vite": "^5.1.4"
 	}
